@@ -1,0 +1,18 @@
+// color
+$ColorOne: #202020;
+$ColorTwo: #eee;
+$mainColor: #E58201;
+
+// fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+html {
+    font-family: 'Roboto';
+    font-size: 62.5%;
+}
+
+body {
+    color: $ColorTwo;
+    font-size: 2rem;
+    background-color: $ColorOne;
+}
